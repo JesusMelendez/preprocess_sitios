@@ -8,10 +8,10 @@ El proceso genera tres salidas como se puede apreciar en el siguiente diagrama.
 
 ```mermaid
 graph LR;
-    id1[(sitios.txt)]-->id2[sitios_clean.py];
-    id2[sitios_clean.py]-->polygons.geojson;
-    id2[sitios_clean.py]-->points.geojson;
-    id2[sitios_clean.py]-->errors.csv;
+    id1[(sitios.txt)]-->id2[sitios_clean.ipynb];
+    id2[sitios_clean.ipynb]-->polygons.geojson;
+    id2[sitios_clean.ipynb]-->points.geojson;
+    id2[sitios_clean.ipynb]-->errors.csv;
 ```
 <br><br>
 
