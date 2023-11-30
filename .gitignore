@@ -1,3 +1,5 @@
 venv
 Sitios.txt
+*.geojson
+*.csv
 
